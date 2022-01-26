@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Validation Error </title>
+    <link rel="stylesheet" href="sstylev.css">
+    
+  
+</head>
+<body>
+   
+    <h1 style="background-color: white;color: yellow;text-align: center;">Wel Come To JavaScript!!!</h1>
+    <hr>
+    <form id="f1" name="f1" onsubmit="return validate()">  
+    <h1 style="text-align: center;">Sign In</h1>
+    <br>zm
+    <br>
+        <table>
+        <tr><td>Enter User Name or Mail ID:</td><td><input type="text" name="name"/>  
+        <span id="namelocation" style="color:black"></span></td></tr> 
+        <tr><td>Enter User Password:</td><td><input type="password" name="password"/>  
+        <span id="passwordlocation" style="color:black"></span></td></tr>
+        <tr><td>Enter OTP:</td><td><input type="text" name="OTP"/>  
+            <span id="OTPlocation" style="color:black"></span></td></tr>
+        <tr><td colspan="2"><input type="submit" value="Log In!"/>  </td></tr>
+        </table>
+        <h5><a href="https://www.google.com/webhp">Forget Password</a> , <a href="https://www.google.com/webhp">Resend OTP</a></h5>
+        </form>  
+        <hr>        
+        <form id="sup" name="f2" onsubmit="return validatesign()">
+    
+    
+        <h3 style="text-align: center;"> For New User Please Register</h3>
+    <h1 style="text-align: center;">Sign Up</h1>
+    <table>
+        <tr><td>Enter  Mail ID:</td><td><input type="text" name="name1"/>  
+        <span id="namelocation1" style="color:yellow"></span></td></tr> 
+        <tr><td>Enter Full Name:</td><td><input type="text" name="password1"/>  
+        <span id="passwordlocation1" style="color:yellow"></span></td></tr>
+        <tr><td>Enter Phone No:</td><td><input type="text" name="OTP1"/>  
+            <span id="OTPlocation1" style="color:yellow"></span></td></tr>
+            <tr><td>Enter Location:</td><td><input type="text" name="OTP1"/>  
+                <span id="OTPlocation1" style="color:yellow"></span></td></tr>
+                <tr><td>Enter Qulification:</td><td><input type="text" name="OTP1"/>  
+                    <span id="OTPlocation1" style="color:yellow"></span></td></tr>
+                    <tr><td colspan="2"><input type="submit" value="Sign Up!"/>  </td></tr>
+    </table>
+           </form>
+    <script src="script.js"></script>
+</body>
+
+</html>

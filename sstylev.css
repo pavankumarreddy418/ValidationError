@@ -1,0 +1,19 @@
+body{
+    
+    background-color:aqua;
+}
+
+#f1{
+    color: white;
+   
+    background-image: url("bgm.jpg");
+    background-position:top;
+}
+#sup{
+    color: white;
+    background-image: url("bgma.jpg");
+    background-position:bottom;
+    
+   
+   
+}
